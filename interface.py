@@ -81,7 +81,7 @@ class BotInterface():
                     self.message_send(event.user_id, 'Команда не опознана.')
 
 if __name__ == '__main__':
-    community_token = "YOUR_COMMUNITY_TOKEN"
-    access_token = "YOUR_ACCESS_TOKEN"
+    community_token = 'YOUR_COMMUNITY_TOKEN'
+    access_token = 'YOUR_ACCESS_TOKEN'
     bot = BotInterface(community_token, access_token)
     bot.event_handler()
